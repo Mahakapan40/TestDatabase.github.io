@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('https://via.placeholder.com/1200x800'); /* เปลี่ยน URL เป็นภาพที่ต้องการ */
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+}
+
+.card-header h3 {
+    margin: 0;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+    height: 40px; /* ขนาดความสูงที่เหมาะสม */
+    font-size: 16px; /* ขนาดตัวอักษรที่เหมาะสม */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px; /* ขนาดตัวอักษรของปุ่ม */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.text-center a {
+    color: #007bff;
+}
+
+.text-center a:hover {
+    text-decoration: underline;
+}
+
+/* Ensure consistent spacing and alignment of form controls */
+.mb-3 {
+    margin-bottom: 15px; /* เพิ่มระยะห่างระหว่างช่องกรอกข้อมูล */
+}
+
+.form-control {
+    width: 100%; /* ทำให้ช่องกรอกข้อมูลขยายเต็มความกว้างของคอนเทนเนอร์ */
+}
+
+/* Style for password error message */
+#password-error {
+    display: none;
+    color: red;
+    font-size: 14px;
+}

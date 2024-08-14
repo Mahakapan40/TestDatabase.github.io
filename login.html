@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Game Account Store</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <!-- Login Section -->
+    <section class="login py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <h3 class="mb-0">Login</h3>
+                        </div>
+                        <div class="card-body">
+                            <form id="login-form">
+                                <div class="row mb-3">
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">Email:</label>
+                                        <input type="email" id="email" class="form-control" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="password" class="form-label">Password:</label>
+                                        <input type="password" id="password" class="form-control" required>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary w-100">Login</button>
+                            </form>
+                            <p class="text-center mt-3">Don't have an account? <a href="signup.html">Sign up here</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="auth.js"></script> <!-- ใส่ไฟล์ JS ที่นี่ -->
+</body>
+</html>

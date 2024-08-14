@@ -1,0 +1,139 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    font-size: 1.75rem;
+    flex-grow: 1;
+}
+
+header .nav {
+    margin-top: 10px;
+}
+
+header .nav-item {
+    margin: 0 5px;
+}
+
+header .nav-link {
+    display: block;
+    padding: 10px 15px;
+    color: #fff !important;
+    font-size: 1rem;
+    text-decoration: none; /* ลบเส้นใต้ */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header .nav-link:hover {
+    background-color: #0056b3;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('your-image-url.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    background-color: #343a40;
+}
+
+.hero .display-4 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.hero .lead {
+    font-size: 1.5rem;
+}
+
+.hero .btn {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.hero .btn:hover {
+    background-color: #218838;
+}
+
+/* Products Section */
+.products {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.products h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.product-list .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.product-list .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-list .card-body {
+    text-align: center;
+}
+
+/* Login Section */
+.login {
+    background-color: #f8f9fa;
+}
+
+.login h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.login form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login .btn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.login .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Section */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
